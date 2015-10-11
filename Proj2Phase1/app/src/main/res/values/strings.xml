@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Basic Calculator</string>
+    <string name="app_name">Anagram Game</string>
 
     <string name="hello_world">Enter a math problem.</string>
     <string name="about_str">About</string>

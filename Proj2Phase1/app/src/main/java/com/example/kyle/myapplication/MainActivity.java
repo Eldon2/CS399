@@ -27,11 +27,11 @@ public class MainActivity extends Activity {
         HandleClick buttonHandle = new HandleClick();
         findViewById(R.id.button).setOnClickListener(buttonHandle);
         findViewById(R.id.button2).setOnClickListener(buttonHandle);
-        findViewById(R.id.button3).setOnClickListener(buttonHandle);
+        findViewById(R.id.button6).setOnClickListener(buttonHandle);
         findViewById(R.id.button4).setOnClickListener(buttonHandle);
         findViewById(R.id.button5).setOnClickListener(buttonHandle);
-        findViewById(R.id.button6).setOnClickListener(buttonHandle);
-        findViewById(R.id.button7).setOnClickListener(buttonHandle);
+        findViewById(R.id.button3).setOnClickListener(buttonHandle);
+        findViewById(R.id.button3).setOnClickListener(buttonHandle);
         findViewById(R.id.button8).setOnClickListener(buttonHandle);
         findViewById(R.id.button9).setOnClickListener(buttonHandle);
         findViewById(R.id.button10).setOnClickListener(buttonHandle);
@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
                     CalcSequence = CalcSequence.concat("2");
                     t.setText(CalcSequence);
                     break;
-                case R.id.button3:
+                case R.id.button6:
                     CalcSequence = CalcSequence.concat("3");
                     t.setText(CalcSequence);
                     break;
@@ -91,11 +91,11 @@ public class MainActivity extends Activity {
                     CalcSequence = CalcSequence.concat("5");
                     t.setText(CalcSequence);
                     break;
-                case R.id.button6:
+                case R.id.button3:
                     CalcSequence = CalcSequence.concat("6");
                     t.setText(CalcSequence);
                     break;
-                case R.id.button7:
+                case R.id.button3:
                     CalcSequence = CalcSequence.concat("7");
                     t.setText(CalcSequence);
                     break;
