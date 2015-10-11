@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Basic Calculator</string>
+
+    <string name="hello_world">Enter a math problem.</string>
+    <string name="about_str">About</string>
+    <string name="hard_challenge">Hard Challenge</string>
+    <string name="medium_challenge">Medium Challenge</string>
+    <string name="easy_challenge">Easy Challenge</string>
+    <string name="begin_game">Begin Game</string>
+    <string name="action_settings">Settings</string>
+</resources>
