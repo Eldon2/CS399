@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
     String showResult;
     double tempStore = 0;
     int getAction = 0;
-    boolean hasTyped = false;
+    int difficulty = 0;
     String CalcSequence = "";
     Integer conversion;
     double tempNumOne;
@@ -60,19 +60,18 @@ public class MainActivity extends Activity {
             // do something when the button is clicked
             switch (V.getId()) {
                 case R.id.button:
-                    CalcSequence = CalcSequence.concat("1");
+                    difficulty = 3;
                     t.setText(CalcSequence);
                     break;
                 case R.id.button2:
-                    CalcSequence = CalcSequence.concat("2");
+                    difficulty = 2;
                     t.setText(CalcSequence);
                     break;
                 case R.id.button3:
-                    CalcSequence = CalcSequence.concat("6");
+                    difficulty = 1;
                     t.setText(CalcSequence);
                     break;
                 case R.id.button4:
-
                     setContentView(R.layout.activity_settings); //Settings
                     t.setText(CalcSequence);
                     break;
